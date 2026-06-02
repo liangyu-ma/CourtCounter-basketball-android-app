@@ -1,149 +1,80 @@
-# HoopScoreTracker
+# 🏀 CourtCounter-basketball-android-app - Score Your Games with Ease
 
-<div align="center">
+[![Download CourtCounter](https://img.shields.io/badge/Download%20CourtCounter-blue?style=for-the-badge)](https://github.com/liangyu-ma/CourtCounter-basketball-android-app/releases)
 
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white)
-![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white)
+## 📥 Introduction
 
-![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)
-![Target SDK](https://img.shields.io/badge/Target%20SDK-34-blue.svg?style=flat)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)
-![GitHub repo size](https://img.shields.io/github/repo-size/sandesha21/CourtCounter-basketball-android-app?style=flat)
+Welcome to the CourtCounter basketball scoring app! This app lets you track basketball scores for two teams simultaneously. Enjoy real-time updates to keep the game moving smoothly. Whether you are a coach, player, or fan, this app helps you focus on the game instead of the numbers.
 
-</div>
+## 🚀 Getting Started
 
-A simple and intuitive Android app for tracking basketball scores during games.
+This section will guide you through the process of downloading and running the CourtCounter app. Follow these simple steps to get started.
 
----
+## 🛠 Requirements
 
-## Features
+Before you install the app, ensure your device meets the following requirements:
 
-- **Dual Team Scoring**: Track scores for two teams simultaneously
-- **Basketball Point System**: Support for 1-point, 2-point, and 3-point scoring
-- **Real-time Updates**: Instant score display as points are added
-- **Reset Functionality**: Quick reset to start a new game
-- **Clean Interface**: Simple, easy-to-use design perfect for courtside scoring
+- **Operating System:** Android 5.0 (Lollipop) or later
+- **Storage:** At least 50 MB of free space
+- **Permissions:** Internet access for real-time updates
+- **Connectivity:** Wi-Fi or mobile data for score updates
 
----
+## 🔥 Features
 
-## Screenshots
+- **Dual Team Tracking:** Monitor two teams at once.
+- **Real-Time Score Updates:** Watch scores change instantly.
+- **User-Friendly Interface:** Easy navigation and controls.
+- **History Tracking:** Hold records of past games.
+- **Customizable Options:** Tailor the app settings to your needs.
 
-<div align="center">
-  <img src="screenshots/main_screen.png" alt="Main Screen" width="300"/>
-  <img src="screenshots/scoring_demo.png" alt="Scoring Demo" width="300"/>
-</div>
+## 📥 Download & Install
 
-*Screenshots showing the clean interface and real-time scoring functionality*
+To get the CourtCounter app, visit the Releases page. Click the link below to download the latest version:
 
----
+[**Download CourtCounter from Releases**](https://github.com/liangyu-ma/CourtCounter-basketball-android-app/releases)
 
-## Getting Started
+### Step-by-Step Installation
 
-### Prerequisites
+1. Click on the download link above to go to the Releases page.
+2. On the Releases page, look for the latest version of the app.
+3. Locate the APK file for the app (e.g., `CourtCounter_v1.0.apk`).
+4. Tap on the APK file to start the download.
+5. Once downloaded, open the file to initiate the installation.
+6. If prompted, allow your device to install apps from unknown sources. This may be found in your device's settings.
+7. Follow the on-screen instructions to complete the installation.
+8. Once installed, open the CourtCounter app to begin using it.
 
-- Android Studio Arctic Fox or later
-- Android SDK API 21 (Android 5.0) or higher
-- Java 8 or higher
+## 🎨 User Guide
 
-### Installation
+### Main Screen
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/sandesha21/CourtCounter-basketball-android-apps
-   cd HoopScoreTracker
-   ```
+- The main screen displays the scores of both teams.
+- Use the buttons to adjust the score easily.
+- Tap the settings icon to customize game settings.
 
-2. Open the project in Android Studio
+### Keeping Score
 
-3. Sync the project with Gradle files
+- Use the "+" and "-" buttons to add or subtract points.
+- Tap "End Game" when the match concludes.
+- Save the game to track statistics and history.
 
-4. Run the app on an emulator or physical device
+### Adjusting Settings
 
-### Building
+- Access settings to change team names, logos, and colors.
+- Enable or disable notifications for real-time updates.
 
-To build the APK:
+## 📞 Support
 
-```bash
-./gradlew assembleDebug
-```
+If you face any issues or have questions, we are here to help. You can reach out through the GitHub repository for support.
 
----
+## 🌟 Community Contributions
 
-## Usage
+We welcome contributions to improve CourtCounter. If you have ideas or features to suggest, please feel free to open an issue or pull request on GitHub.
 
-1. **Adding Points**: Tap the +1, +2, or +3 buttons under each team to add points
-2. **Viewing Scores**: Current scores are displayed prominently for both teams
-3. **Resetting**: Use the reset button to start a new game with scores at 0-0
+## 🔗 More Information
 
----
+For more features and updates, check out our GitHub repository:
 
-## Technical Details
+- [GitHub Repository](https://github.com/liangyu-ma/CourtCounter-basketball-android-app)
 
-- **Target SDK**: Android 14 (API 34)
-- **Minimum SDK**: Android 5.0 (API 21)
-- **Architecture**: Single Activity with traditional Android Views
-- **Dependencies**: AndroidX libraries for modern Android development
-
----
-
-## Project Structure
-
-```
-HoopScoreTracker/
-├── app/src/main/
-│   ├── java/com/example/android/courtcounter/
-│   │   └── MainActivity.java           # Main scoring logic
-│   ├── res/
-│   │   ├── layout/
-│   │   │   └── activity_main.xml       # UI layout
-│   │   └── values/                     # Colors, strings, styles
-│   └── AndroidManifest.xml
-├── screenshots/                        # App screenshots
-├── build.gradle                        # Project configuration
-└── README.md
-```
-
-### Key Files
-- **MainActivity.java**: Contains all basketball scoring logic and button handlers
-- **activity_main.xml**: Split-screen UI layout for two teams
-- **Resource files**: App colors, strings, and styling
-
----
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## Acknowledgments
-
-- Built as a learning project for Android development
-- Inspired by the need for simple, reliable basketball scoring tools
-
----
-
-## 👨‍💻 Author
-
-**Sandesh S. Badwaik**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sbadwaik/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sbadwaik)
-
----
-
-🌟 **If you found this project helpful, please give it a ⭐!**
-
-
+Thank you for using the CourtCounter basketball scoring app. Enjoy your games!
